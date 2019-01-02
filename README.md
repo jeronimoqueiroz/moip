@@ -18,6 +18,8 @@ e o segundo para obter status do boleto gerado
 ### Melhorias
 - Criar topic em kafka para tratamento do transacional e processamento da captura.
 - Implementacao de autenticacao via oauth2
+- criar uma camada zuul gateway api na frente dos microservicos para implementar circuit breaker, colocar a auntenticacao neste layer.
+
 
 
 Coloquei os docker files em /{nome_projeto}/src/main/resources/docker
