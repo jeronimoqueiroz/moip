@@ -28,7 +28,7 @@ import br.com.moip.gateway.web.dto.StatusDTO;
 import br.com.moip.gateway.web.rest.AbstractPaymentResource;
 import br.com.moip.gateway.web.util.HeaderUtil;
 import br.com.moip.service.BoletoPaymentService;
-
+ 
 @RestController
 @RequestMapping("/api")
 public class BoletoPaymentResource extends AbstractPaymentResource {
